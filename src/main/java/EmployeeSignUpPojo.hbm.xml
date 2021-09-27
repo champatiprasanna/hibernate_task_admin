@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.Pojo.EmployeeSignUpPojo" table = "employee">
+      
+    
+      <id name = "id" >
+         <generator class="increment"/>
+      </id>
+    <property name = "name" />
+     <property name = "email" />
+      <property name = "password" />
+      <property name = "mobile" />
+       <property name = "skills" />
+      <property name = "experience"/>
+   	 <property name = "cwo"/>
+     <property name = "ctc"/>
+      <property name = "jobrole"/>
+     <property name = "plocation"/>
+      <property name = "noticep"/>
+      
+  </class>
+  </hibernate-mapping>
